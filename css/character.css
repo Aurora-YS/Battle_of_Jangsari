@@ -1,0 +1,37 @@
+/* character.css */
+
+.character{
+    width: 960px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.character .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #71788d;
+}
+.character .box .img{
+    width: 260px;
+    height: 260px;
+    background-image: url(../img/cha_01.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.character .box .txt{
+    width: 640px;
+}
+.character .box .txt .name{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1;
+}
+.character .box .txt .ment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    font-size: 24px;
+    text-align: center;
+}

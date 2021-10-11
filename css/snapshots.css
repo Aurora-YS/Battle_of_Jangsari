@@ -1,0 +1,43 @@
+/* snapshots.css */
+
+.snapshots{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.snapshots .snap_img{
+    width: calc(50% - 20px);
+    height: 300px;
+    margin: 0 10px 20px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.snapshots .snap_img:nth-child(1){background-image: url(../img/cont_01.jpg);}
+.snapshots .snap_img:nth-child(2){background-image: url(../img/cont_02.jpg);}
+.snapshots .snap_img:nth-child(3){background-image: url(../img/cont_03.jpg);}
+.snapshots .snap_img:nth-child(4){background-image: url(../img/cont_04.jpg);}
+.snapshots .snap_img:nth-child(5){background-image: url(../img/cont_05.jpg);}
+.snapshots .snap_img:nth-child(6){background-image: url(../img/cont_06.jpg);}
+
+.snapshots .more{
+    width: 190px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #71788d;
+    background-color: #71788d;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.snapshots .more:hover{
+    background-color: #fff;
+    color: #71788d;
+}
