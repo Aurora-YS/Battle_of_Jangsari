@@ -1,5 +1,6 @@
 /* snapshots_add.css */
-
+@charset "utf-8";
+/* 
 .snapshots_add{
     width: 960px;
     margin: 0 auto;
@@ -12,7 +13,8 @@
 
 .snapshots_add .snap_img{
     width: calc(50% - 20px);
-    height: 300px; 
+    height: 300px;
+
     margin: 0 10px 20px;
     background-position: 50% 50%;
     background-size: cover;
@@ -25,3 +27,38 @@
 .snapshots_add .snap_img:nth-child(6){background-image: url(../img/cont_12.jpg);}
 .snapshots_add .snap_img:nth-child(7){background-image: url(../img/cont_13.jpg);}
 .snapshots_add .snap_img:nth-child(8){background-image: url(../img/cont_14.jpg);}
+ */
+
+ .add_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .add_box .sn_box{
+    width: calc(50% - 20px);
+    height: 300px;
+    margin: 0 10px 20px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #ddd;
+}
+ 
+ .add_box .sn_box .dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+ 
+ .add_box .sn_box .dark h4{
+    color:#fff;
+    font-size: 20px;
+}
+ 
+ .add_box .sn_box:hover .dark{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
